@@ -25,7 +25,7 @@ public class Cotxe {
 
     public static void main(String[] args) {
 
-        var cotxe = new Cotxe();
+        var cotxe = new Cotxe( "A1");
         System.out.println(cotxe);
 
         cotxe.accelerar();
