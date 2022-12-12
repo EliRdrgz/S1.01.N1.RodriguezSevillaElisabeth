@@ -1,7 +1,7 @@
 package n1exercici1;
 
 //classe pare: Instrument
-public class Instrument {
+public abstract class Instrument {
         private String nom;
         private double preu;
 

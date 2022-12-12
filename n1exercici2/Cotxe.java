@@ -6,10 +6,11 @@ public class Cotxe {
     //en aquest cas Cotxe.marca. ;
     //Que un atribut sigui "final" vol dir que no es pot modificar, la dada que es defineix a l'atribut és sempre constant. Els atributs que son "final" s'escriuen en majúscula.
     private static final String MARCA = "Audi";
-    private static String model = "A1";
+    private static String model;
     private final double POTENCIA = 120;
 
-    public Cotxe() {
+    public Cotxe(String model) {
+        this.model = model;
     }
 
     public static void frenar(){
